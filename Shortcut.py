@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+i#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 from collections import defaultdict
 
@@ -7,7 +7,7 @@ class Graph():
         """
         self.edges is a dict of all possible next nodes
         e.g. {'X': ['A', 'B', 'C', 'E'], ...}
-        self.weights has all the weights between two nodes,
+  l the weights between two nodes,
         with the two nodes as a tuple as the key
         e.g. {('X', 'A'): 7, ('X', 'B'): 2, ...}
         """
